@@ -4,5 +4,8 @@ echo "The first process is addition"
 read x
 read y
 sum=$($x+$y)
+product=$($x*$y)
 echo "The sum of two numbers is"
 echo $sum
+echo " the multiplication of two numbers is"
+echo $product
